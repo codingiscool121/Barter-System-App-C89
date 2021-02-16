@@ -76,6 +76,7 @@ getIsExchangeRequestActive =()=>{
 }
 componentDidMount(){
     this.getIsExchangeRequestActive()
+        this.getExchangeRequest()
     this.getData()
 }
 getExchangeRequest=()=>{
